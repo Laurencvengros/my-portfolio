@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .head{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px 20px 0px;
+    background-color:skyblue;
+  }
+
+  h1{
+   
+    font-family:monospace;
+     font-size:30px;
+     color: skyblue;
+     background-color:dimgray;
+     border: 10px solid dimgray;
+     border-left: -20px;
+     border-width: 10px 10px 10px 50px;
+    
+    }
+
+  a{
+    color: dimgray;
+    font-family:'Alegreya SC'; font-size: 20px;
+    padding: 7px;
+    position: relative;
+    top: 20px;
+    
+  }
+
+
