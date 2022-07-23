@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
   }
 
   .head{
@@ -29,5 +30,21 @@
     top: 20px;
     
   }
+
+  .avatar{
+
+    position:absolute;
+    top: 120px;
+    left: 80px;
+    height:160px;
+    width:160px;
+    border:2px solid dimgray;
+
+  }
+
+  .image{
+    position:absolute;
+    top: 90px;
+ }
 
 
