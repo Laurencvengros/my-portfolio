@@ -3,28 +3,36 @@
     
   }
 
+  :root{
+    --text: rgb(77, 89, 92);
+    --border: rgb(130, 209, 231);
+  }
+
   .head{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 20px 0px;
-    background-color:skyblue;
+    background-color:var(--text);
   }
 
   h1{
     font-family:monospace;
     font-size:30px;
-    color: skyblue;
-    background-color:dimgray;
-    border: 10px solid dimgray;
+    color: var(--text);
+    background-color:var(--border);
+    border: 10px solid var(--border);
+    border-radius: 5px;
     border-width: 10px 10px 10px 5px;
     position: relative;
     top: 2px;
-    width:577px;
+    width:600px;
+    text-align:right
+    
     
     }
 
   a{
-   color: dimgray;
+   color: var(--border);
     font-family:'Alegreya SC'; font-size: 18px;
     padding: 7px;
     position: relative;
@@ -40,7 +48,7 @@
     left: 80px;
     height:160px;
     width:160px;
-    border:2px solid dimgray;
+    border:2px solid var(--border);
 
   }
 
@@ -54,7 +62,7 @@
  .subtitle{
     font-family:monospace;
     text-align: center;
-    color: skyblue;
+    color:var(--text);
     font-size:30px;
     padding-top: 10px;
     position:absolute;
@@ -62,8 +70,9 @@
     right: 100px;
     height:50px;
     width:360px;
-    border:10px 10px 20px 100px solid dimgray;
-    background-color: dimgray;
+    border:10px 10px 20px 100px solid var(--border);
+    border-radius: 5px;
+    background-color: var(--border);
 }
 
 
