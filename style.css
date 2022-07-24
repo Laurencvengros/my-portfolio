@@ -4,8 +4,8 @@
   }
 
   :root{
-    --text: rgb(77, 89, 92);
-    --border: rgb(130, 209, 231);
+    --border: rgb(64, 65, 65);
+    --text: rgb(115, 219, 238);
   }
 
   .head{
@@ -21,7 +21,6 @@
     color: var(--text);
     background-color:var(--border);
     border: 10px solid var(--border);
-    border-radius: 5px;
     border-width: 10px 10px 10px 5px;
     position: relative;
     top: 2px;
@@ -36,7 +35,9 @@
     font-family:'Alegreya SC'; font-size: 18px;
     padding: 7px;
     position: relative;
-    top: 10px
+    top: 10px;
+    font-size: 22px;
+    
 
     
   }
@@ -71,9 +72,16 @@
     height:50px;
     width:360px;
     border:10px 10px 20px 100px solid var(--border);
-    border-radius: 5px;
     background-color: var(--border);
 }
 
+.topics{
+    column-count: 2;
+    
+}
+
+.banner{
+  height:200px;
+}
 
 
