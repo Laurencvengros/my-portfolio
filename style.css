@@ -1,7 +1,6 @@
-* {
-    box-sizing: border-box;
-    
-  }
+*{
+  box-sizing: border-box;
+}
 
   :root{
     --border: rgb(64, 65, 65);
@@ -9,10 +8,12 @@
   }
 
   .head{
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    padding: 20px 30px 20px 0px;
+    padding: 20px  30px 20px 0px;
     background-color:var(--text);
+    width:5000pxpx;
+    
   }
 
   h1{
@@ -37,10 +38,7 @@
     position: relative;
     top: 10px;
     font-size: 22px;
-    
-
-    
-  }
+    }
 
   .avatar{
 
@@ -54,11 +52,9 @@
   }
 
   .image{
-    position:absolute;
-    top: 90px;
-    width:100%;
-    
- }
+    position:relative;
+    width:100;
+  }
 
  .subtitle{
     font-family:monospace;
@@ -80,39 +76,57 @@
 }
 
 .row{
-  content: "About Me";
-  display: table;
-  clear: both;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  top:50px;
-  left:250px;
+  display:flex;
+  padding: 10px;
   line-height: 200%;
+  position: relative;
+  left: 200px;
+
+  
   
 }
 
+.row:after{
+  content: "About Me","Work";
+  display: table;
+  clear:both
+}
+
 .column{
-  float: left;
-  padding: 10px;
+float:none;
+padding: 22px;
+
 }
 
 .left{
-  width: 25%;
-  font-size: 30px;
-  border-right: 2px solid black;
-  text-align: end;
+width: 25%;
+font-size: 32px;
+
 
 }
 
 .right{
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  left:50px
-
+width:75%;
 }
+
+.weblink{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+ section,
+ .weblink {
+    flex-direction: column;
+  }
+
+  .weblink, {
+    flex-direction: column;
+  }
+}
+
 
 
 
