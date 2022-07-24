@@ -75,13 +75,44 @@
     background-color: var(--border);
 }
 
-.topics{
-    column-count: 2;
-    
-}
-
 .banner{
   height:200px;
 }
+
+.row{
+  content: "About Me";
+  display: table;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top:50px;
+  left:250px;
+  line-height: 200%;
+  
+}
+
+.column{
+  float: left;
+  padding: 10px;
+}
+
+.left{
+  width: 25%;
+  font-size: 30px;
+  border-right: 2px solid black;
+  text-align: end;
+
+}
+
+.right{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left:50px
+
+}
+
 
 
