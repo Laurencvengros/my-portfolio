@@ -12,10 +12,10 @@
                 <h1> Lauren's Web Developer Portfolio</h1>
 
                      <nav>
-                        <a href="#About-Me">About Me</a>
-                        <a href="#">Work</a>
-                        <a href="#">Contact Me</a>
-                        <a href="#">Resume</a>
+                        <a class="highlight" href="#About-Me">About Me</a>
+                        <a class="highlight" href="#work-section">Work</a>
+                        <a class="highlight" href="#">Contact Me</a>
+                        <a class="highlight" href="#">Resume</a>
                     </nav>
             </section>
         </header> 
@@ -50,16 +50,20 @@
 
             <section class="row">
                 <section class="column left">
-                    <h4>Work</h4>
+                    <h3>Work</h3>
                 </section>
                 <section class="column right">
             
                     <section class="apps header">
-                        <div>
-                        
-                            <a href="file:///C:/Users/lcven/OneDrive/Desktop/Homework_Assignment/01_HTML/horiseon_webpage/index.html">
-                            <img src="my-work.jpg" width="700" height="500" alt= "Screenshot of website I worked on" class="appsmain">
+                        <div class="container">
+                            <a id= "work-section"></a>
+                                <h5 class=>Horiseon Webpage</h5>
                             </a>
+                                <div class="shadow">
+                                    <a href="file:///C:/Users/lcven/OneDrive/Desktop/Homework_Assignment/01_HTML/horiseon_webpage/index.html">
+                                    <img src="my-work.jpg" width="700" height="500" alt= "Screenshot of website I worked on" class="appsmain">
+                                    </a>
+                                </div>
                     
                         </div>
                     </section>  
@@ -71,8 +75,10 @@
             <section class="row">
                 <section class="column right">
                     <section class="apps">
-                        <h5>LED Wall</h5>
-                            <img src="image1.jpg" class="images">
+                        <div class="container">
+                                <h5 class="top-left">LED Wall</h5>
+                                <img src="image1.jpg" class="images">
+                        </div>
                     
                     </section>
                 </section>
@@ -80,8 +86,10 @@
                 
                 <section class="column right">
                     <section class="apps">
-                        <h5>Calculator</h5>
+                        <div class="container">
+                            <h5 class=" top-right">Calculator</h5>
                             <img src="image2.jpg" class="images">
+                        </div>
                     </section>
                 </section>
             </section>
@@ -89,19 +97,44 @@
             <section class="row">
                 <section class="column right">
                     <section class="apps">
-                        <h5>Pastel Puzzle</h5>
+                        <div class="container">
                             <img src="image3.jpg" class="images">
+                            <h5 class="bottom-left">Pastel Puzzle</h5>
+                        </div>
                     </section>
                 </section>
 
                 <section class="column right">
                     <section class="apps">
-                        <h5>Run Buddy</h5>
+                        <div class="container">
+                            <h5 class="bottom-right">Run Buddy</h5>
                             <img src="image4.jpg" class="images">
+                        </div>
                     </section>
                 </section>
             </section>
 
         </main>
+        <footer>
+            <section class="row">
+                <section class="column left">
+                    
+                    <h3>Contact Me</h3>
+                                
+                </section>
+            
+                
+                <section class="column right">
+
+                   <h6> 555.555.5555 |  example.email@icloud.com | Github | Facebook </h6>
+
+                </section>
+                            
+            </section>
+
+
+
+
+        </footer>
     </body>
 </html>

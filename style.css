@@ -1,8 +1,13 @@
 *{
   box-sizing: border-box;
 }
-main{
+main, footer{
   background-color: rgb(232, 253, 252);
+}
+footer{
+  text-align:center;
+  color: var(--border);
+
 }
 
   :root{
@@ -32,6 +37,10 @@ main{
     text-align:right
     }
 
+  h3{
+    font-size: 40px;
+    color: var(--border)
+  }
 
 
   a{
@@ -41,6 +50,11 @@ main{
     position: relative;
     top: 10px;
     font-size: 22px;
+    }
+
+    .highlight:hover{
+      font-size: 30px;
+      color:blueviolet;
     }
 
   .avatar{
@@ -100,7 +114,7 @@ padding: 22px;
 
 .left{
 width: 25%;
-font-size: 32px;
+text-align:center;
 }
 
 .right{
@@ -124,7 +138,6 @@ width:75%;
   }
 }
 
-
 .apps header {
  color: black;
 }
@@ -141,6 +154,7 @@ width:75%;
   text-align: center;
   border: 5px solid var(--text);
   height:500px;
+  left: 100px
 }
 .images{
   flex: 1 0 100px;
@@ -148,16 +162,51 @@ width:75%;
   border: 5px solid var(--text);
   height: 200px;
   width: 350px ;
+  position: relative;
+  left: 200px
 }
 
 
 h5{
   font-family:monospace;
-  text-align: center;
-  color:var(--text);
   font-size:20px;
   border:10px 10px 20px 50px solid var(--border);
   background-color: var(--border);
 
-
 }
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-center{
+  position: absolute;
+  bottom: 500px;
+  left: 40px;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: 30px;
+  left: 150px;
+}
+
+.top-right{
+  position: absolute;
+  bottom: 60px;
+  left: 70px;
+}
+
+.top-left{
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+}
+
