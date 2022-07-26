@@ -13,6 +13,7 @@ footer{
   :root{
     --border: rgb(64, 65, 65);
     --text: rgb(115, 219, 238);
+    --shadow: blueviolet;
   }
 
   .head{
@@ -34,14 +35,20 @@ footer{
     position: relative;
     top: 2px;
     width:600px;
-    text-align:right
+    text-align:right;
+    text-shadow: 10px 4px 10px var(--shadow);
+    }
+
+    h2{
+      text-shadow: 5px 5px 10px var(--shadow);
     }
 
   h3{
     font-size: 50px;
-    color: var(--border);
+    color:black;
     font-family:'Courier New', Courier, monospace;
-    
+    text-shadow: 2px 2px 4px var(--shadow);
+
   }
 
 
@@ -56,7 +63,7 @@ footer{
 
   .highlight:hover{
       font-size: 30px;
-      color:blueviolet;
+      color:var(--shadow)
   }
 
   .avatar{
@@ -116,28 +123,43 @@ padding: 22px;
 
 .left{
 width: 25%;
-text-align:center;
+
+
 }
 
 .right{
 width:75%;
+
 }
 
-.appsmain{
-  flex: 2 1 200px;
-  position: relative;
-  right: 200px
-}
+
 
 @media screen and (max-width: 992px) {
  section,
  .apps {
     flex-direction: column;
+
   }
 
-  .weblink, {
+
+  .left, {
     flex-direction: column;
   }
+
+h3{
+position: relative;
+left: 400px
+}
+
+h6{
+  position: relative;
+left: 200px
+}
+
+p{
+  position: relative;
+  left: 100px
+}
 }
 
 .apps header {
@@ -156,37 +178,54 @@ width:75%;
   text-align: center;
   border: 5px solid var(--text);
   height:500px;
-  left: 100px
+  left: 200px;
+  position: relative;
+  
 }
+
 .images{
   flex: 1 0 100px;
   text-align: center;
   border: 5px solid var(--text);
   height: 200px;
-  width: 350px ;
+  width: 550px ;
   position: relative;
-  left: 200px
+  left: 300px;
+
 }
+
 
 h4{
   font-family:monospace;
-  color: var(--border);
+  color: black;
+  text-shadow: 2px 2px 8px var(--shadow);
   font-size:20px;
   position: relative;
-  left:100px
+  left:200px
 }
 
 h5{
-  color: var(--border);
+  color: black;
   font-family: monospace;
   font-size:20px;
   position: relative;
-  left:170px;
-
-
-
-
+  left:250px;
+  text-shadow: 2px 2px 8px var(--shadow)
 }
+
+h6{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 2px 8px var(--shadow);
+}
+
+p{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
 
 
 
