@@ -23,6 +23,6 @@ https://laurencvengros.github.io/my-portfolio/
 
 Click here for a screenshot of the  position: 
 
-![my-portfolio](top-screenshot.jpg"screenshot of top portion of webpage")
+![my-portfolio](./top-screenshot.jpg "screenshot of top portion of webpage")
 
-![my-portfolio](bottom-screenshot.jpg"screenhot of bottom portion of webpage")
+![my-portfolio](./bottom-screenshot.jpg "screenhot of bottom portion of webpage")
