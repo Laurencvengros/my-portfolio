@@ -95,6 +95,7 @@ footer{
     width:360px;
     border:10px 10px 20px 100px solid var(--border);
     background-color: var(--border);
+    
 }
 
 
@@ -107,6 +108,11 @@ footer{
   padding: 10px;
   line-height: 200%;
  
+}
+
+#break{
+  margin-top: 170px;
+  margin-bottom: 100px;
 }
 
 
@@ -224,6 +230,10 @@ p{
   font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
+}
+
+#contact-me{
+  margin-top: 100px;
 }
 
 

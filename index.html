@@ -3,8 +3,8 @@
   <head>
     <title>Personal Portfolio</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style/reset.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
     <body>
         <header>
@@ -12,52 +12,42 @@
                 <h1> Lauren's Web Developer Portfolio</h1>
 
                      <nav>
-                        <a class="highlight" href="#">About Me</a>
+                        <a class="highlight" href="#about-me">About Me</a>
                         <a class="highlight" href="#work-section">Work</a>
                         <a class="highlight" href="#contact-me">Contact Me</a>
-                        <a class="highlight" href="#">Resume</a>
+                        <a class="highlight" href="./assets/images/Copy of Canvas Google Docs Resume Template.pdf">Resume</a>
                     </nav>
             </section>
         </header> 
         
         <main>
             <section class="banner">
-                 <img src="header-image.jpg" alt="heading image"  width="100%" height="200"class="image">
-                 <img src="avatar.jpg" alt="animated dark hair avatar" width="10%" Height="16%" class="avatar">
+                 <img src="./assets/images/header-image.jpg" alt="heading image"  width="100%" height="200"class="image">
+                 <img src="./assets/images/avatar.jpg" alt="animated dark hair avatar" width="10%" Height="16%" class="avatar">
             
                  <h2 class="subtitle">Welcome To My Page!</h2>
             </section>
-            <br>
-            <br>
-            <br>
-
-            <section  class="row" >
+            <section  class="row" id="break" >
         
-                <h3 class="column left">About 
-                    <br><br>
-                    Me</h3>
+                <h3 class="column left">About Me</h3>
                 
-                    <div class="column right">
-                        <p>
-                            My name is Lauren, I am 25 years old and live in Grand Rapids Michigan.
-                            I graduated with a bachelor's degree from Michigan State University.
-                            I am excited to start my career in web development as I enjoy
-                            problem solving and design. I am excited to showcase my skills 
-                            as they develop and I continue to learn more and gain experience.
-                            Check out the links below to see some of the applications I have
-                            worked on. Check out the link to my Github account at the bottom of
-                            the page to view more of my work.
-                        </p>
-                    </div>    
+                
+                <div class="column right" id="about-me">
+                    <p>
+                        My name is Lauren, I am 25 years old and live in Grand Rapids Michigan.
+                        I graduated with a bachelor's degree from Michigan State University.
+                        I am excited to start my career in web development as I enjoy
+                        problem solving and design. I am excited to showcase my skills 
+                        as they develop and I continue to learn more and gain experience.
+                        Check out the links below to see some of the applications I have
+                        worked on. Check out the link to my Github account at the bottom of
+                        the page to view more of my work.
+                    </p>
+                </div>    
             </section>
-                <br>
-                <br>
-                <br>
-            <section class="row">
+            <section class="row" id="break">
                 <section class="column left">
-                    <br>
-                    <Br><br><br><Br><br>
-                    <h3> My <br><br> Work</h3>
+                    <h3 id="break"> My Work</h3>
                 </section>
                 <section class="column right">
             
@@ -68,7 +58,7 @@
                             </a>
                                 <div>
                                     <a href="https://laurencvengros.github.io/horiseon_webpage/">
-                                    <img src="my-work.jpg" width="700" height="500" alt= "Screenshot of website I worked on" class="appsmain">
+                                    <img src="./assets/images/my-work.jpg" width="700" height="500" alt= "Screenshot of website I worked on" class="appsmain">
                                     </a>
                                 </div>
                     
@@ -79,13 +69,13 @@
             </section>
             
         
-            <section class="row">
+            <section class="row" id="break">
                 <section class="column right">
                     <section class="apps">
                         <div class="container">
                             
                                 <h5 class="highlight" class="top-left">Application 2</h5>
-                                <img src="image1.jpg" class="images">
+                                <img src="./assets/images/image1.jpg" class="images">
                              
                         </div>
                     
@@ -98,7 +88,7 @@
                         <div class="container">
                             
                                 <h5 class="highlight" class=" top-right">Application 3</h5>
-                                <img src="image2.jpg" class="images">
+                                <img src="./assets/images/image2.jpg" class="images">
                             
                         </div>
                     </section>
@@ -111,7 +101,7 @@
                         <div class="container">
                             
                                 <h5 class="highlight" class="bottom-left">Application 4</h5>
-                                <img src="image3.jpg" class="images">
+                                <img src="./assets/images/image3.jpg" class="images">
                             
                             
                         </div>
@@ -123,7 +113,7 @@
                         <div class="container">
                             
                                 <h5 class="highlight" class="bottom-right">Application 5</h5>
-                                <img src="image4.jpg" class="images">
+                                <img src="./assets/images/image4.jpg" class="images">
                             
                         </div>
                     </section>
@@ -133,31 +123,17 @@
         </main>
 
         <footer>
-            <br>
-            <br>
             <section class="row">
                 <section class="column left">
-                    
-                    <h3 id="contact-me">Contact 
-                        <br>
-                        <br>
-                        Me</h3>
-                                
+                    <h3 id="contact-me">Contact Me</h3>
                 </section>
             
                 
-                <section class="column right">
-                    <br>
-                    <br>
+                <section class="column right" id="contact-me">
                    <h6> 555.555.5555 |  example.email@icloud.com | Github | Facebook </h6>
-
                 </section>
                             
             </section>
-
-
-
-
         </footer>
     </body>
 </html>
